@@ -31,7 +31,7 @@ export default function Hero() {
             View work
             <ArrowRight size={14} className="ml-2" />
           </Button>
-          <Button href={personalInfo.resumeUrl} variant="secondary">
+          <Button href={personalInfo.resumeUrl} target="_blank" variant="secondary">
             Resume
           </Button>
         </div>
