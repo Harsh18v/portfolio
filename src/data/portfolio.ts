@@ -10,7 +10,7 @@ export const personalInfo = {
 
 export const stats = [
   { value: "1.5", label: "Years building" },
-  { value: "4+", label: "Projects shipped" },
+  { value: "3+", label: "Projects build" },
   { value: "MERN", label: "Primary stack" },
 ];
 
