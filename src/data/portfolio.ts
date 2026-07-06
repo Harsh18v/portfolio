@@ -48,7 +48,7 @@ export const projects = [
     title: "InterviewMentor AI",
     description:
       "AI-powered interview preparation platform built with the MERN stack and Google Gemini API.",
-    tags: ["React.js", "JavaScript", "Express", "Node.js", "MongoDB"],
+    tags: ["React.js", "JavaScript", "Express", "Node.js", "MongoDB", "TailwindCSS"],
     liveUrl: "https://harsh-interviewmentor-ai.vercel.app/",
     githubUrl: "https://github.com/Harsh18v/interviewmentor-ai",
     featured: true,
@@ -57,7 +57,7 @@ export const projects = [
     title: "ChatBox",
     description:
       "Real-time chat application built with React.js, Node.js, MongoDB, and Socket.IO.",
-    tags: ["React", "Express", "Node.js", "Socket.io", "MongoDB"],
+    tags: ["React", "JavaScript", "Express", "Node.js", "Socket.io", "MongoDB", "TailwindCSS"],
     liveUrl: "https://github.com/Harsh18v/ChatBox",
     githubUrl: "https://github.com/Harsh18v/ChatBox",
     featured: true,
