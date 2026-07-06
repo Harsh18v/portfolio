@@ -77,7 +77,7 @@ export const experience = [
   {
     role: "Full Stack Developer",
     company: "Freelance",
-    period: "2025 — Present",
+    period: "2026 — Present",
     description:
       "End-to-end web applications for clients using MERN and Next.js.",
   },
