@@ -48,7 +48,7 @@ export const projects = [
     title: "InterviewMentor AI",
     description:
       "AI-powered interview preparation platform built with the MERN stack and Google Gemini API.",
-    tags: ["React.js", "JavaScript", "MongoDB", "Express"],
+    tags: ["React.js", "JavaScript", "Express", "Node.js", "MongoDB"],
     liveUrl: "https://harsh-interviewmentor-ai.vercel.app/",
     githubUrl: "https://github.com/Harsh18v/interviewmentor-ai",
     featured: true,
