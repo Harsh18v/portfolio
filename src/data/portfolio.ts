@@ -58,7 +58,7 @@ export const projects = [
     description:
       "Real-time chat application built with React.js, Node.js, MongoDB, and Socket.IO.",
     tags: ["React", "JavaScript", "Express", "Node.js", "Socket.io", "MongoDB", "TailwindCSS"],
-    liveUrl: "https://github.com/Harsh18v/ChatBox",
+    liveUrl: "https://hv-chat-box.vercel.app",
     githubUrl: "https://github.com/Harsh18v/ChatBox",
     featured: true,
   },
