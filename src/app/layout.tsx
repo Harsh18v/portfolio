@@ -83,6 +83,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
     >
+      <meta name="google-site-verification" content="teGW9ou2xV-SiktYXy1C2Y_cfGWS-Obt4M9V_kqVoFI" />
       <body className="min-h-screen bg-black font-sans text-neutral-200 antialiased">
         <script
           type="application/ld+json"
