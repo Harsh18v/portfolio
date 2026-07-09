@@ -17,7 +17,7 @@ export default function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="card-hover group relative bg-black"
+              className="relative bg-black"
             >
               <div className="flex flex-col gap-6 p-8 sm:flex-row sm:items-start sm:justify-between sm:p-10">
                 <div className="flex-1">

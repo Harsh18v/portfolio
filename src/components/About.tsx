@@ -1,8 +1,7 @@
-import { personalInfo, skills } from "@/data/portfolio";
+import { personalInfo ,allSkills} from "@/data/portfolio";
 import SectionHeader from "./ui/SectionHeader";
 
 export default function About() {
-  const allSkills = skills.flatMap((g) => g.items);
 
   return (
     <section id="about" className="border-b border-neutral-800">
@@ -14,7 +13,7 @@ export default function About() {
         />
 
         <div className="grid gap-px overflow-hidden rounded-lg border border-neutral-800 bg-neutral-800 lg:grid-cols-2">
-          <div className="card-hover bg-black p-8 sm:p-10">
+          <div className=" bg-black p-8 sm:p-10">
             <p className="mb-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
               Focus
             </p>
@@ -24,7 +23,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="card-hover bg-black p-8 sm:p-10">
+          <div className=" bg-black p-8 sm:p-10">
             <p className="mb-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
               Location
             </p>
@@ -34,7 +33,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="card-hover col-span-full bg-black p-8 sm:p-10">
+          <div className="col-span-full bg-black p-8 sm:p-10">
             <p className="mb-6 font-mono text-xs uppercase tracking-widest text-neutral-500">
               Stack
             </p>

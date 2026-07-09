@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="mx-auto min-h-screen max-w-5xl border-x border-neutral-800">
+    <div className="mx-auto min-h-screen max-w-5xl border-x border-neutral-700">
       <Navbar />
       <main>
         <Hero />

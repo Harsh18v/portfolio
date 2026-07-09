@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Harsh Vishwakarma",
   title: "Full Stack Developer",
-  tagline: "I build production-ready web apps — from API to interface.",
+  tagline: "I build fast, scalable, and responsive web applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript. Building modern products from database to deployment.",
   email: "harsh17v@gmail.com",
   location: "Pune, India",
   bio: "Full stack developer focused on shipping fast, reliable products. I work across the stack with MERN, TypeScript, and Next.js — designing schemas, building APIs, and crafting interfaces that feel instant.",
@@ -10,18 +10,19 @@ export const personalInfo = {
 
 export const stats = [
   { value: "1.5", label: "Years building" },
-  { value: "3+", label: "Projects build" },
-  { value: "MERN", label: "Primary stack" },
+  { value: "4+", label: "Projects build" },
+  { value: "MERN ", label: "Primary stack" },
 ];
 
-export const socialLinks = [
-  { name: "GitHub", url: "https://github.com/Harsh18v", icon: "github" as const },
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/harsh-vishwakarma-22982b28b", icon: "linkedin" as const },
-  {
-    name: "Email",
-    url: "mailto:harsh17v@gmail.com",
-    icon: "mail" as const,
-  },
+export type SocialLink = {
+  name: string;
+  url: string;
+  icon: "github" | "linkedin";
+};
+
+export const socialLinks: SocialLink[] = [
+  { name: "GitHub", url: "https://github.com/Harsh18v", icon: "github" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/harsh-vishwakarma-22982b28b", icon: "linkedin" },
 ];
 
 export const skills = [
@@ -85,6 +86,14 @@ export const experience = [
 
 export const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Work", href: "#projects" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
+  { label: "Contact", href: "#contact" },
 ];
+
+export const allSkills = [
+  "React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "REST APIs", "MongoDB", "Git", "Vercel", "Render", "JavaScript", "Python", "Java", "HTML5", "CSS3"
+];
+
+

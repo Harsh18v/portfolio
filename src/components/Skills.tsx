@@ -14,7 +14,7 @@ export default function Skills() {
           {skills.map((group) => (
             <div
               key={group.category}
-              className="card-hover group bg-black p-8"
+              className=" group bg-black p-8"
             >
               <h3 className="mb-6 font-mono text-xs uppercase tracking-widest text-neutral-500">
                 {group.category}
@@ -26,9 +26,6 @@ export default function Skills() {
                     className="flex items-center justify-between text-sm text-neutral-300"
                   >
                     <span>{skill}</span>
-                    <span className="text-neutral-700 transition-colors group-hover:text-neutral-500">
-                      —
-                    </span>
                   </li>
                 ))}
               </ul>
