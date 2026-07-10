@@ -29,9 +29,6 @@ export default function Hero() {
           </span>
         </div>
 
-        <p className="animate-fade-up animation-delay-200 mt-6 max-w-xl text-md text-neutral-400">
-          MERN  | TypeScript |  Next.js  
-        </p>
 
         <div className="animate-fade-up animation-delay-300 mt-10 flex flex-wrap items-center gap-3">
           <Button href="#projects" variant="primary">

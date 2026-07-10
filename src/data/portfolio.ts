@@ -4,7 +4,7 @@ export const personalInfo = {
   tagline: "I build fast, scalable, and responsive web applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript. Building modern products from database to deployment.",
   email: "harsh17v@gmail.com",
   location: "Pune, India",
-  bio: "Full stack developer focused on shipping fast, reliable products. I work across the stack with MERN, TypeScript, and Next.js — designing schemas, building APIs, and crafting interfaces that feel instant.",
+  bio: "I'm a full-stack developer specializing in React, Next.js, Node.js, Express, MongoDB, and TypeScript. I enjoy building responsive user interfaces, scalable APIs, and clean backend architectures that solve real-world problems.",
   resumeUrl: "/resume/Harsh_Vishwakarma_Resume.pdf",
 };
 
@@ -28,15 +28,15 @@ export const socialLinks: SocialLink[] = [
 export const skills = [
   {
     category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "REST APIs", "MongoDB"],
+    items: ["Node.js", "Express.js", "MongoDB", "JWT Authentication", "REST APIs", "Mongoose"],
   },
   {
-    category: "Infrastructure",
-    items: ["Git", "Vercel", "Render"],
+    category: "Tools & Platforms",
+    items: ["Git", "GitHub", "Vercel", "Render", "MongoDB Atlas", "Postman", "VS Code"],
   },
   {
     category: "Languages",
@@ -52,6 +52,8 @@ export const projects = [
     tags: ["React.js", "JavaScript", "Express", "Node.js", "MongoDB", "TailwindCSS"],
     liveUrl: "https://harsh-interviewmentor-ai.vercel.app/",
     githubUrl: "https://github.com/Harsh18v/interviewmentor-ai",
+    imageSrc: "/interviewMentor.png.png",
+    imageAlt: "InterviewMentor AI project preview",
     featured: true,
   },
   {
@@ -61,6 +63,8 @@ export const projects = [
     tags: ["React", "JavaScript", "Express", "Node.js", "Socket.io", "MongoDB", "TailwindCSS"],
     liveUrl: "https://hv-chat-box.vercel.app",
     githubUrl: "https://github.com/Harsh18v/ChatBox",
+    imageSrc: "/chatbox.png.png",
+    imageAlt: "ChatBox project preview",
     featured: true,
   },
   {
@@ -77,7 +81,7 @@ export const projects = [
 export const experience = [
   {
     role: "Full Stack Developer",
-    company: "Freelance",
+    company: "Freelance • Pune, India",
     period: "2026 — Present",
     description:
       "End-to-end web applications for clients using MERN and Next.js.",
@@ -93,7 +97,22 @@ export const navLinks = [
 ];
 
 export const allSkills = [
-  "React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "REST APIs", "MongoDB", "Git", "Vercel", "Render", "JavaScript", "Python", "Java", "HTML5", "CSS3"
+  "React",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Tailwind CSS",
+  "REST APIs",
+  "Git",
+  "GitHub",
+  "JWT Authentication",
+  "Shadcn UI",
+  "Framer Motion",
+  "Vercel",
+  "Render",
 ];
 
 

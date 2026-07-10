@@ -6,15 +6,15 @@ export default function Skills() {
     <section id="skills" className="border-b border-neutral-800">
       <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
         <SectionHeader
-          label="Capabilities"
-          title="What I work with."
+          label="Skills"
+          title="Technologies I use."
         />
 
         <div className="grid gap-px overflow-hidden rounded-lg border border-neutral-800 bg-neutral-800 sm:grid-cols-2">
           {skills.map((group) => (
             <div
               key={group.category}
-              className=" group bg-black p-8"
+              className="card-hover group bg-black p-8"
             >
               <h3 className="mb-6 font-mono text-xs uppercase tracking-widest text-neutral-500">
                 {group.category}

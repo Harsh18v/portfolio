@@ -7,7 +7,7 @@ export default function Experience() {
       <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
         <SectionHeader
           label="Experience"
-          title="Where I've been."
+          title="Professional Experience."
         />
 
         <div className="divide-y divide-neutral-800 rounded-lg border border-neutral-800">

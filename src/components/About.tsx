@@ -8,12 +8,12 @@ export default function About() {
       <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
         <SectionHeader
           label="About"
-          title="Engineering products end to end."
+          title="Building modern web applications."
           description={personalInfo.bio}
         />
 
         <div className="grid gap-px overflow-hidden rounded-lg border border-neutral-800 bg-neutral-800 lg:grid-cols-2">
-          <div className=" bg-black p-8 sm:p-10">
+          <div className="card-hover bg-black p-8 sm:p-10">
             <p className="mb-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
               Focus
             </p>
@@ -23,7 +23,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className=" bg-black p-8 sm:p-10">
+          <div className="card-hover bg-black p-8 sm:p-10">
             <p className="mb-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
               Location
             </p>
@@ -33,7 +33,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="col-span-full bg-black p-8 sm:p-10">
+          <div className="card-hover col-span-full bg-black p-8 sm:p-10">
             <p className="mb-6 font-mono text-xs uppercase tracking-widest text-neutral-500">
               Stack
             </p>
