@@ -28,7 +28,7 @@ export const socialLinks: SocialLink[] = [
 export const skills = [
   {
     category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
+    items: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit"],
   },
   {
     category: "Backend",
@@ -52,8 +52,19 @@ export const projects = [
     tags: ["React.js", "JavaScript", "Express", "Node.js", "MongoDB", "TailwindCSS"],
     liveUrl: "https://harsh-interviewmentor-ai.vercel.app/",
     githubUrl: "https://github.com/Harsh18v/interviewmentor-ai",
-    imageSrc: "images/interviewMentor.png",
+    imageSrc: "/images/interviewMentor.png",
     imageAlt: "InterviewMentor AI project preview",
+    featured: true,
+  },
+  {
+    title: "Cart House",
+    description:
+      "Built a scalable full-stack E-Commerce platform with Next.js, TypeScript, Redux Toolkit, Node.js, Express.js, MongoDB, and Tailwind CSS.",
+    tags: ["Next.js", "Typescript", "Mongodb", "Redux","TailwindCSS"],
+    liveUrl: "https://cart-house.vercel.app",
+    githubUrl: "https://github.com/Harsh18v/CartHouse",
+    imageSrc: "/images/cartHouse.png",
+    imageAlt: "Cart House ecommerce project preview",
     featured: true,
   },
   {
@@ -63,7 +74,7 @@ export const projects = [
     tags: ["React", "JavaScript", "Express", "Node.js", "Socket.io", "MongoDB", "TailwindCSS"],
     liveUrl: "https://hv-chat-box.vercel.app",
     githubUrl: "https://github.com/Harsh18v/ChatBox",
-    imageSrc: "images/chatbox.png",
+    imageSrc: "/images/chatbox.png",
     imageAlt: "ChatBox project preview",
     featured: true,
   },
