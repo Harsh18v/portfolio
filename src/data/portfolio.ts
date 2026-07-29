@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "harsh17v@gmail.com",
   location: "Pune, India",
   bio: "I'm a full-stack developer specializing in React, Next.js, Node.js, Express, MongoDB, and TypeScript. I enjoy building responsive user interfaces, scalable APIs, and clean backend architectures that solve real-world problems.",
-  resumeUrl: "/resume/Harsh_Vishwakarma_Resume.pdf",
+  resumeUrl: "/resume/Resume.pdf",
 };
 
 export const stats = [
