@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
-import GridBackground from "./ui/GridBackground";
-import Button from "./ui/Button";
+import GridBackground from "@/components/ui/GridBackground";
+import Button from "@/components/ui/Button";
 
 
 export default function Hero() {

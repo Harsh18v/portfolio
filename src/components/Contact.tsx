@@ -2,8 +2,8 @@
 
 import { ArrowUpRight } from "lucide-react";
 import { personalInfo, socialLinks } from "@/data/portfolio";
-import SectionHeader from "./ui/SectionHeader";
-import SocialIcon from "./SocialIcon";
+import SectionHeader from "@/components/ui/SectionHeader";
+import SocialIcon from "@/components/SocialIcon";
 
 export default function Contact() {
   return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { projects } from "@/data/portfolio";
-import SectionHeader from "./ui/SectionHeader";
-import { GitHubLinkIcon } from "./SocialIcon";
+import SectionHeader from "@/components/ui/SectionHeader";
+import { GitHubLinkIcon } from "@/components/SocialIcon";
 
 export default function Projects() {
   return (

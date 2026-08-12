@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { navLinks, socialLinks } from "@/data/portfolio";
-import SocialIcon from "./SocialIcon";
+import SocialIcon from "@/components/SocialIcon";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);

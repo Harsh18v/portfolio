@@ -1,5 +1,5 @@
 import { skills } from "@/data/portfolio";
-import SectionHeader from "./ui/SectionHeader";
+import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function Skills() {
   return (
