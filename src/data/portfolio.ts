@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Pune, India",
   bio: "I'm a full-stack developer specializing in React, Next.js, Node.js, Express, MongoDB, and TypeScript. I enjoy building responsive user interfaces, scalable APIs, and clean backend architectures that solve real-world problems.",
   resumeUrl: "/resume/Resume.pdf",
-  profileImage: "/images/dp - copy.jpeg",
+  profileImage: "/images/dp-copy.jpeg",
 };
 
 export type SocialLink = {
