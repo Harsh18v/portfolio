@@ -6,13 +6,8 @@ export const personalInfo = {
   location: "Pune, India",
   bio: "I'm a full-stack developer specializing in React, Next.js, Node.js, Express, MongoDB, and TypeScript. I enjoy building responsive user interfaces, scalable APIs, and clean backend architectures that solve real-world problems.",
   resumeUrl: "/resume/Resume.pdf",
+  profileImage: "/images/dp - copy.jpeg",
 };
-
-export const stats = [
-  { value: "1.5", label: "Years building" },
-  { value: "4+", label: "Projects build" },
-  { value: "MERN ", label: "Primary stack" },
-];
 
 export type SocialLink = {
   name: string;
@@ -115,6 +110,7 @@ export const allSkills = [
   "Node.js",
   "Express.js",
   "MongoDB",
+  "Redux Toolkit",
   "Tailwind CSS",
   "REST APIs",
   "Git",
