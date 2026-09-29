@@ -41,6 +41,17 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Knot url shortener",
+    description:
+      "Knot — A modern URL shortener built with Next.js, Tailwind CSS, and Supabase. Create short links, manage URLs, use custom aliases, and track link clicks from a clean dashboard.",
+    tags: ["Next.js", "TypeScript", "Supabase", "TailwindCSS"],
+    liveUrl: "https://knot-url.vercel.app/",
+    githubUrl: "https://github.com/Harsh18v/url-shortener",
+    imageSrc: "/images/knot.png",
+    imageAlt: "Knot url shortener project preview",
+    featured: true,
+  },
+  {
     title: "InterviewMentor AI",
     description:
       "AI-powered interview preparation platform built with the MERN stack and Google Gemini API.",
@@ -55,7 +66,7 @@ export const projects = [
     title: "Cart House",
     description:
       "Built a scalable full-stack E-Commerce platform with Next.js, TypeScript, Redux Toolkit, Node.js, Express.js, MongoDB, and Tailwind CSS.",
-    tags: ["Next.js", "Typescript", "Mongodb", "Redux","TailwindCSS"],
+    tags: ["Next.js", "Typescript", "Mongodb", "Redux", "TailwindCSS"],
     liveUrl: "https://cart-house.vercel.app",
     githubUrl: "https://github.com/Harsh18v/CartHouse",
     imageSrc: "/images/cartHouse.png",
@@ -88,9 +99,11 @@ export const experience = [
   {
     role: "Full Stack Developer",
     company: "Freelance • Pune, India",
-    period: "2026 — Present",
-    description:
-      "End-to-end web applications for clients using MERN and Next.js.",
+    period: "Jul 2026 — Present",
+    works: {
+      client: "Rare Fin Shop",
+      description: "Developed a modern, responsive business website for Rare Fin Shop, an aquarium and ornamental fish business, using Next.js, React, TypeScript, and Tailwind CSS. Designed product-focused sections and a user-friendly interface optimized for modern devices.",
+    },
   },
 ];
 
